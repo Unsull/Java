@@ -3,6 +3,8 @@ import java.io.IOException;
 
 public class FileDir {
     public static void main(String[] args) {
+        
+        // Example of listing files in the current directory
         File file = new File(".");
         String[] files = file.list();
 
