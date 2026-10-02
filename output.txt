@@ -1,0 +1,3 @@
+Hello, World!
+This is a sample text written to a file.
+Writing to files in Java is straightforward.
