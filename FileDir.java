@@ -25,15 +25,6 @@ public class FileDir {
         } else {
             System.out.println("Directory already exists: " + newDirPath);
         }
-
-        // // Example of deleting a directory
-        // if (newDir.exists()) {
-        //     if (newDir.delete()) {
-        //         System.out.println("Directory deleted: " + newDirPath);
-        //     } else {
-        //         System.out.println("Failed to delete directory: " + newDirPath);
-        //     }
-        // }
         
         // Example of creating a new file in the new directory
         String newFilePath = newDirPath + File.separator + "new_file.txt";
