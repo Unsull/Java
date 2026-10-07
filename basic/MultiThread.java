@@ -1,3 +1,4 @@
+package basic;
 public class MultiThread {
     public static void main(String[] args) {
         // Get the number of available processors

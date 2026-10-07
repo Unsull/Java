@@ -1,3 +1,4 @@
+package basic;
 public class WhileLoop {
     public static void main(String[] args) {
         // Example 1: Simple while loop

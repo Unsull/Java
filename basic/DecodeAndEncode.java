@@ -1,3 +1,4 @@
+package basic;
 import java.io.UnsupportedEncodingException;
 
 public class DecodeAndEncode {

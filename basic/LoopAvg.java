@@ -1,3 +1,4 @@
+package basic;
 public class LoopAvg {
     public static void main(String[] args) {
         // Example 1: Calculate the average of numbers using a for loop

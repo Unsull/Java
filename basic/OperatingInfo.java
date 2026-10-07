@@ -1,3 +1,4 @@
+package basic;
 public class OperatingInfo {
     public static void main(String[] args) {
         String osName = System.getProperty("os.name");
