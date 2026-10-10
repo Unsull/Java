@@ -5,6 +5,11 @@ public class Book {
     String color;
     int price;
     final String isbn = "1101"; // final variables cannot be modified after initialization, so we cannot provide a setter for the author variable.
+    Author author;
+
+    // static means this variable belongs to the Book class.
+    // Every Book object shares the same counter value.
+    static int counter;
 
     String getInfo() {
         return "Name: " + name + ", Color: " + color + ", Price: " + price;
