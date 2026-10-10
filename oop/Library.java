@@ -17,5 +17,15 @@ public class Library {
         PrinterEpson printer1 = new PrinterEpson();
         printer1.print();
         printer1.checkPower();
+        System.out.println();
+
+        PrinterCannon cannon1 = new PrinterCannon();
+        cannon1.print();
+
+        // method from Printer (parent)
+        cannon1.test();
+        int n = cannon1.getPower();
+        System.out.println("Power: " + n);
+        System.out.println();
     }
 }
